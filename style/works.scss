@@ -1,0 +1,36 @@
+.works{
+	max-width: 1440px;
+	margin: 0 auto;
+}
+.works-title{
+    padding-top: 160px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 38px;
+    font-weight: 600;
+}
+.works-subtitle{
+    text-align: center;
+    line-height: 27px;
+    padding-bottom: 80px;
+}
+.works-row{
+    display: flex;
+    margin-bottom: 30px;
+}
+.works-row-second{
+    display: flex;
+    margin-bottom: 70px;
+}
+.works-block{
+    margin-left: 30px;
+    background-color: #1e1e1e;
+    position: relative;
+}
+.works-images{
+    width: 450px;
+    height: 450px;
+}
+.works-link:hover{
+    opacity: 0.7;
+}

@@ -1,0 +1,35 @@
+.review-wrapper{
+	max-width: 1420px;
+	margin: 0 auto;
+}
+.review-title{
+	padding-top: 80px;
+	padding-bottom: 80px;
+	text-align: center;
+}
+.review-columns{
+	display: flex;
+	justify-content: space-between;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+.review-column{
+	text-align: center;
+	max-width: 250px;
+}
+.review-sign{
+	font-size: 90px;
+	font-weight: 700;
+}
+.review-text{
+	line-height: 25px;
+	padding-bottom: 40px; 
+	word-spacing: 10px;
+	color: #1e1e1e;
+}
+.review-author{
+	font-size: 20px;
+	color: #985d2a;
+	font-weight: 700;
+	margin-bottom: 120px;
+}

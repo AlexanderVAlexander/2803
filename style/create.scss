@@ -1,0 +1,29 @@
+.create{
+    background-color: #1e1e1e;
+}
+.create-wrapper{
+    max-width: 1440px;
+	margin: 0 auto;
+}
+.create-title{
+    padding-top: 80px;
+    padding-bottom: 50px;
+    line-height: 55px;
+    font-size: 28px;
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+}
+.create-link{
+    color: #000;
+	background-color: #f5f5f5;
+	padding: 10px 35px 10px 35px;
+}
+.create-button{
+    padding-bottom: 80px;
+    position: relative;
+    left: 620px;
+}
+.create-link:hover{
+    color: #985d2a;
+}

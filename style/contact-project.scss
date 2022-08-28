@@ -1,0 +1,71 @@
+.project{
+    background-color: #efefef;
+}
+.contact-project{
+    padding-top: 100px;
+}
+.contact-project-descripton-title{
+    padding-bottom: 30px;
+    line-height: 55px;
+    font-size: 42px;
+    font-weight: 700;
+    color: #000;
+}
+.contact-project-description-sub{
+    font-size: 16px;
+    line-height: 25px;
+    color: #1e1e1e;
+}
+.contact-address{
+    padding-top: 35px;
+    font-size: 16px;
+    font-style: normal;
+    color: #000; 
+    line-height: 50px;
+}
+.contact-input-text{
+    color: #000; 
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.contact-adress{
+    color: #1e1e1e;
+}
+.contact-ukrainian-city{
+    line-height: 10px;
+    color: #000; 
+    padding-bottom: 30px;
+}
+.contact-ukrainian-city-adress{
+    color: #1e1e1e; 
+}
+.contact-input{
+    background-color: #f5f5f5;
+    color: #000; 
+    border-bottom: 0.5px solid #1e1e1e;
+}
+.contact-textarea{
+    background-color: #f5f5f5;
+    color: #000; 
+    border-bottom: 0.5px solid #1e1e1e;
+    width: 490px;
+    height: 150px;
+}
+.project-button-contacts{
+    margin-bottom: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.contact-button{
+    background-color: #1e1e1e;
+    color: #fff; 
+    padding: 20px 210px 20px 210px;
+}
+.map{
+    max-width: 1920px;
+    width: 100%;
+    max-height: 800px;
+    height: 100%;
+    background-image: url(../img/contacts.JPG);
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+		<div class="header-wrapper">
+			<input type="checkbox" id="burger">
+			<label for="burger"></label>
+			<div class="header-logo">
+				<img class="logo" src="img/icons/icons8.png" alt="house" width="60px">
+				<h1 class="header-title">КВ-Ремстрой</h1>
+			</div>
+				<nav>
+					<ul class="list-nav">
+						<li class="list-item">
+							<a class="list-link" href="index.html">
+								Главная
+							</a>
+						</li>
+						<li class="list-item">
+							<a class="list-link" href="aboutus.html">
+								О нас
+							</a>
+						</li>
+						<li class="list-item">
+							<a class="list-link" href="services.html">
+								Услуги
+							</a>
+						</li>
+						<li class="list-item">
+							<a class="list-link" href="work.html">
+								Проекты
+							</a>
+						</li>
+						<li class="list-item">
+							<a class="list-link">
+								Контакты
+							</a>
+						</li>
+						<li class="list-item" id="call-number">
+							+7 123-456-7890
+						</li>
+					</ul>	
+				</nav>
+		</div>
+	</header>
+    <main>
+        <article class="contact-project">
+			<div class="project-wrapper">
+				<div class="project-description">
+					<h4 class="contact-project-descripton-title">
+					Давайте обсудим ваш новый проект
+					</h4>
+					<span class="contact-project-description-sub">Заполните форму для бесплатной консультации.</span>
+					<address class="contact-adress">
+						<b>Территория работы:</b>
+						<p class="contact-ukrainian-city">Москва, Московская область и Санкт-Петербург</p>
+						<p class="contact-ukrainian-city-adress">ул. Арбат, 1а, Москва, 119019, Российская Федерация<br>
+						info@mysite.ru<br>
+						+7 123 456-7890
+                        </p>
+					</address>
+				</div>
+				<form class="project-form" action="#" method="get">
+					<div class="user-name">
+						<div class="input-cell">
+							<p class="contact-input-text">Имя *</p><input class="contact-input" type="text" name="name" required minlength="4" maxlength="15" size="30">
+						</div>
+						<div class="input-cell">
+							<p class="contact-input-text">Фамилия *</p><input class="contact-input" type="text" name="surname" required minlength="4" maxlength="15" size="30">
+						</div>	
+					</div>
+					<div class="user-adress">
+						<div div class="input-cell">
+							<p class="contact-input-text">Эл. почта *</p><input class="contact-input" type="email" name="email" required minlength="4" maxlength="15" size="30">
+						</div>
+						<div div class="input-cell">
+							<p class="contact-input-text">Телефон *</p><input class="contact-input" type="email"  name="email" required minlength="10" maxlength="15" size="30">
+						</div>		
+					</div>
+					<div class="input-cell">
+						<p class="contact-input-text">Адресс *</p><input class="contact-input" type="text" name="address" minlength="10" maxlength="15" size="65">
+						<p class="contact-input-text">Тема *</p><input class="contact-input" type="text"  name="address" minlength="10" maxlength="15" size="65">
+						<p class="contact-input-text">Текст сообщения... *</p><input class="contact-textarea" type="textarea" name="comment" cols="65" rows="65">
+					</div>
+					<div class="project-button-contacts">
+						<button class="contact-button" name="button" type="submit">Отправить</button>
+					</div>
+				</form>
+			</div>
+		</article>
+		<div>
+			<img class="map" src="img/contacts.JPG" alt="map">
+		</div>
+    </main>
+	<footer>
+		<div class="footer-wrapper">
+			<div class="footer-content">
+				<a class="footer-link">Политика конфиденцияльности</a>
+				<p>© 2023 ООО «КВ-Ремстрой»</p>
+				<div class="footer-icons">
+					<img src="img/icons/facebook-internet-media-svgrepo-com.svg" alt="facebook">
+					<img src="img/icons/internet-media-social-7-svgrepo-com.svg" alt="twitter">
+					<img src="img/icons/internet-media-social-11-svgrepo-com.svg" alt="youtube">
+				</div>	
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

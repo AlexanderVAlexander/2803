@@ -1,0 +1,10 @@
+.our-services-wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.our-services-images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}

@@ -1,0 +1,47 @@
+.kitchen{
+	margin-top: 60px;
+}
+.kitchen-wrapper{
+	max-width: 1420px;
+	margin: 0 auto;
+	display: flex;
+}
+.kitchen-content{
+	margin-top: 100px;
+	margin-left: 100px;
+	line-height: 25px;
+	max-width: 500px;
+}
+h3{
+	font-weight: 700;
+	line-height: 50px;
+	font-size: 38px;
+	color: #1e1e1e;
+}
+.kitchen-text{
+	margin-top: 30px;
+	font-size: 16px;
+	color: #1e1e1e;
+}
+.kitchen-img{
+	background-image: url('../img/kitchen.jpg');
+	height: 100%;
+	height: 600px;
+	width: 100%;
+	max-width: 670px;
+	background-attachment: fixed;
+	background-size: 800px 900px;
+	background-position-y: -30px;
+	background-position-x: 80px;
+}
+.kitchen-link{
+	margin-top: 30px;
+}
+.kitchen-button{
+	color: #fff;
+	background-color: #1e1e1e;
+	padding: 10px 40px 10px 40px;
+}
+.kitchen-button:hover{
+	background-color: #985d2a;
+}

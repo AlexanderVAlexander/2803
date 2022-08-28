@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;500;700;800&family=Merriweather+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap');
+@import"nullstyle.scss";
+@import"header.scss";
+@import"bighouse.scss";
+@import"kitchen.scss";
+@import"why.scss";
+@import"services.scss";
+@import"review.scss";
+@import"project.scss";
+@import"footer.scss";
+@import"about-company.scss";
+@import"how.scss";
+@import"guarantee.scss";
+@import"create.scss";
+@import"works.scss";
+@import"our-services";
+@import"contact-project";
+@import"media";
+body{
+	font-family: 'League Spartan', sans-serif;
+	font-family: 'Merriweather Sans', sans-serif;
+	background-color: #f5f5f5;
+}
+html, body {
+    /* Убирает прокрутку по горизонтале, для мобильной версии */
+    overflow-x: hidden;
+}
